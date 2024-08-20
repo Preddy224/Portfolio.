@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Page - Peera Reddy - FCC</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="navbar">
+            <a class="nav-item nav-header" href="#welcome-section">peera reddy</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+        </nav>
+        <div id="welcome-section">
+            <div class="welcome-strips"></div>
+            <div class="welcome-content text-center">
+                <h1>Hola, I am <span class="name">Peera Reddy</span></h1>
+                <h2>A Full Stack JS Developer</h2>
+            </div>
+        </div>
+
+        <div id="projects">
+            <header class="text-center">
+                <h3>Previous projects of the FreeCodeCamp - Responsive Web Designing Course are listed below:</h3>
+            </header>
+            <div class="projects-wrapper">
+                <div class="project-tile">
+                    <a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page"
+                        target="_blank"
+                    >
+                        <div class="project-name">Tribute Page</div>
+                        <div class="project-info">IN FCC</div>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form"
+                        target="_blank"
+                    >
+                        <div class="project-name">Survey Form</div>
+                        <div class="project-info">Survey on Web Development</div>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page"
+                        target="_blank"
+                    >
+                        <div class="project-name">Product Landing Page</div>
+                        <div class="project-info">For Avicii's Gravity Game</div>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page"
+                        target="_blank"
+                    >
+                        <div class="project-name">Technical Documentation Page</div>
+                        <div class="project-info">JS Tree Data Structure</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="connection-block text-center">
+            <p>
+                Please visit
+                <a id="profile-link" href="https://www.freecodecamp.org/@peerareddy" target="_blank">My FCC profile</a>
+                for FreeCodeCamp courses' solution and Projects
+            </p>
+        </div>
+    </div>
+
+    <script src="portfolio.js">
+        // fixing the test suite for the project
+        const projectName = 'portfolio';
+    </script>
+   
+</body>
+</html>
